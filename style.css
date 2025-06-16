@@ -1,0 +1,68 @@
+body { margin: 0;
+background-color: black;
+}
+header > nav {
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+
+header nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav > ul > li > a {
+    text-decoration: none;
+    color: brown;
+}
+.cimsor {
+    font-size: smaller;
+    color: rgb(255, 147, 7);
+}
+
+h2 {
+    color: deepskyblue;
+    margin-inline: 10pc;
+    background-color: rgb(108, 0, 248);
+    padding: auto;
+    font-size: auto;
+}
+
+p {
+    color: royalblue;
+    font-size: large;
+}
+
+img {
+
+    width: 100%;
+    border: red 1px solid;
+
+}
+
+#gomb {
+    border: none;
+    color: rgb(10, 95, 112);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 8px;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: rgb(255, 0, 221);
+    }
+}
